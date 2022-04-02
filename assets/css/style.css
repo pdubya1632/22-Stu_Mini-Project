@@ -24,9 +24,6 @@ footer {
   background: #929da3;
   text-align: center;
   padding: 20px 0;
-  /* position: absolute;
-  bottom: 0;
-  width: 100%; */
 }
 
 h1,
@@ -69,16 +66,26 @@ p {
   font-size: 1.2em;
 }
 
-#contact {
-  margin: 40px;
-  border: 5px solid #34797d;
+#contactForm {
+  margin: 60px;
 }
 
 form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border-radius: 20px;
+  border: 5px solid #34797d;
+  border-radius: 10px;
+  width: 50%;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  font-size: 1.5em;
+  margin: 10px;
 }
 
 label {
